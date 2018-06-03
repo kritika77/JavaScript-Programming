@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript Programming</title>
+<style type="text/css">
+.image{
+	position: relative;
+	width: 100%;
+}
+h1{
+	position: absolute;
+	color: white;
+	width: 100%;
+	top: 0px;
+	font-size: 45px;
+}
+p{
+	position: absolute;
+	color: white;
+	left: 400px;
+	font-size: 35px;
+	top: 40px;
+}
+h2{
+	position: absolute;
+	color: white;
+	font-size: 180px;
+	left: 400px;
+	top: 120px;
+}
+</style>
+  <script type="text/javascript">
+
+	alert("You are going to learn th meaning of life");
+	confirm("Are you sure you want to know it?");
+	
+  </script>
+</head>
+<body>
+<div class="image" onmouseover="show()">
+<img src="/Users/nikhilsethi/Documents/JavaScript/images2.jpeg" style="width:938px;height:462px">
+<h1>When will you know? Touch the SUPERNOVA!</h1>
+<script type="text/javascript">
+	var p = prompt("What is your name", "kritika");
+    document.write("<p>" + p + "</p>");
+    document.write("<h2 id='numb'>" + 50 + "</h2>");
+    function show(){
+    var x = document.getElementById('numb');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }}
+  
+</script>
+
+</div>
+</body>
+</html>

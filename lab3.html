@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript Programming</title>
+<style type="text/css">
+.image{
+	position: relative;
+	width: 100%;
+}
+h1{
+	position: absolute;
+	color: white;
+	width: 100%;
+	left: 350px;
+	top: 0px;
+	font-size: 45px;
+}
+p{
+	position: absolute;
+	color: white;
+	left: 350px;
+	font-size: 20px;
+	top: 70px;
+	border: 4px solid red;
+	border-radius: 25px;
+	padding: 2px;
+	width: 32%;
+}
+
+</style>
+  
+</head>
+<body>
+<div class="image" onmouseover="show()">
+<img src="/Users/nikhilsethi/Documents/JavaScript/images2.jpeg" style="width:938px;height:462px">
+<h1>Mileage Calculator</h1>
+<script type="text/javascript">
+	var miles = prompt("Please enter the number of miles driven");
+	var gallons = prompt("Please enter the numbers of gallons used");
+	var mileage = miles/gallons;
+	document.write("<p>");
+    document.write("Miles Driven: " + miles + "miles" + "<br>");
+    document.write("Gallons Used: " + gallons + "gallons" + "<br>");
+    document.write("Mileage: " + mileage + "mpg (miles per gallon)" + "<br>");
+    document.write("</p>");
+  
+</script>
+
+</div>
+</body>
+</html>
